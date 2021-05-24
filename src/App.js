@@ -1,22 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Author: your name
+ * @Date: 2021-04-29 15:45:06
+ * @LastEditTime: 2021-04-29 15:45:45
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /app/src/App.js
+ */
+// import logo from './logo.svg';
+import "./App.css";
+import Hooks from "./hooks";
+import Example from "./component/useeffect";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="container">
+          <div className="a1"></div>
+          <div className="a2"></div>
+          {/* <div className="a1"></div>
+          <div className="a1"></div>
+          <div className="a1"></div>
+          <div className="a1"></div>
+          <div className="a1"></div>
+          <div className="a1"></div> */}
+        </div>
       </header>
     </div>
   );
