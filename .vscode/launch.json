@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/src/常见的前端编码题目/allKey.js"
+      "program": "${workspaceFolder}/src/基础算法/二分法.js"
     }
   ]
 }
