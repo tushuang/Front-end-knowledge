@@ -1,0 +1,40 @@
+/*
+margin:0 auot;
+子组件设置relative相对定位 设置top等于父组件的高度
+*/
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: cadetblue;
+}
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  margin: 0 auto;
+  position: relative;
+  /* top: 200px; */
+  transform: translateY(200%);
+}
+
+/*
+*/
+/* .container {
+  width: 500px;
+  height: 500px;
+  background-color: cadetblue;
+  position: relative;
+}
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  margin: auto;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin-top: -50px;
+} */

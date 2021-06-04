@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-04-29 15:45:06
- * @LastEditTime: 2021-04-29 15:45:45
- * @LastEditors: your name
+ * @LastEditTime: 2021-06-01 09:51:27
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /app/src/App.js
  */
@@ -11,21 +11,13 @@ import "./App.css";
 import Hooks from "./hooks";
 import Example from "./component/useeffect";
 import React from "react";
+import Center from "./component/垂直居中/居中";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="container">
-          <div className="a1"></div>
-          <div className="a2"></div>
-          {/* <div className="a1"></div>
-          <div className="a1"></div>
-          <div className="a1"></div>
-          <div className="a1"></div>
-          <div className="a1"></div>
-          <div className="a1"></div> */}
-        </div>
+        <Center />
       </header>
     </div>
   );

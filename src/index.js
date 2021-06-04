@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-04-29 15:45:20
- * @LastEditTime: 2021-04-29 15:46:02
- * @LastEditors: your name
+ * @LastEditTime: 2021-06-02 22:13:20
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /app/src/index.js
  */
@@ -11,12 +11,17 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import windowUtils from "./utils/window";
+import { BrowserRouter, Route } from "react-router-dom";
+import Dialog from "./component/对话框拖拽/practice";
 
 windowUtils();
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      {/* <Route path="/" component={App} /> */}
+      <Route path="/dialog" component={Dialog} />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,0 +1,17 @@
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dragModal {
+  width: 50px;
+  height: 50px;
+  background-color: blanchedalmond;
+}
