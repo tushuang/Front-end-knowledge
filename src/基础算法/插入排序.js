@@ -3,21 +3,21 @@
  */
 function sort(arr) {
   for (let i = 1; i < arr.length; i++) {
-    let target = arr[i];
     let j = i - 1;
+    let k = i;
     while (j >= 0) {
-      if (arr[j] > target) {
-        let temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = target;
-        target = temp;
+      if (arr[j] > arr[k]) {
+        let temp = arr[k];
+        arr[k] = arr[j];
+        arr[j] = temp;
+        k = j;
         j--;
       } else {
-        console.log(arr[j], arr[i]);
         j = -1;
       }
     }
   }
   console.log(arr);
 }
-sort([1, 2, 4, 5, 2, 1, 6, 8, 4, 0]);
+sort([1, 2, 4, 5, 2, 1, 6, 8, 4, 0, 9]);
+// 1 2 4 2 5

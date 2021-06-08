@@ -11,9 +11,9 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/interview.js"
-      // "program": "${workspaceFolder}/src/基础算法/插入排序.js"
-      // "program": "${workspaceFolder}/src/常见的前端编码题目/数组拍平.js"
+      // "program": "${workspaceFolder}/interview.js"
+      "program": "${workspaceFolder}/src/基础算法/扑克牌.js"
+      // "program": "${workspaceFolder}/src/常见的前端编码题目/实现map.js"
     }
   ]
 }
